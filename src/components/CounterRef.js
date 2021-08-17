@@ -10,6 +10,7 @@ function CounterRef() {
 
   return (
     <div>
+      {console.log(count.current)}
       <h1>CounterRef</h1>
       <button onClick={handleClick}>{count.current}</button>
     </div>
